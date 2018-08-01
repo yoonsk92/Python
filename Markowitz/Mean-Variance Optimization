@@ -84,7 +84,7 @@ def rdf(Rs,Re, incr, mean):
         rates_df.loc[ers] = MVO(ers,mean).loc[ers]
     return rates_df
 
-#Example
+#Example using Sample Data.csv
 #Solving Markowitz's MVO model for constructing a portfolio of
 #US stocks, bonds, and cash using geometric / arithmetic means respectively.
 #Target value R from 6.5% to 12% with increments of 0.5%.
